@@ -3,7 +3,7 @@ import time
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 
-def test_items(browser):
+def test_item_button(browser):
     browser.get(link)
     time.sleep(30)
     btn = browser.find_element_by_class_name('btn-add-to-basket')
